@@ -1,0 +1,70 @@
+.burger {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bread-top {
+  width: 80%;
+  height: 20%;
+  background-color: #f08e4a;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seeds {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+.ingredient {
+  width: 80%;
+  height: 15px;
+  background-color: #7f3608;
+  margin: 2px 0;
+  animation: FadeIn 0.5s;
+}
+
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bread-bottom {
+  width: 80%;
+  height: 15%;
+  background-color: #f08e4a;
+  border-radius: 8px;
+}
+
+/* Styling for different ingredients */
+.lettuce {
+  background-color: #228c1d;
+}
+
+.cheese {
+  background-color: #fddc6d;
+  width: 100%;
+}
+
+.meat {
+  background-color: #7f3608;
+  width: 90%;
+}
+
+.tomato {
+  background-color: #d60c0c;
+}
